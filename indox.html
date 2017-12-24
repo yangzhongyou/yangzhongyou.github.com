@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>my html</title> 
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.footer {
+    background-color: #444;
+    color: white;
+    padding: 15px;
+}
+.topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.topmenu li a:hover {
+    background-color: #222;
+}
+.topmenu li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.sidemenu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.sidemenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li a {
+    margin-bottom: 4px;
+    display: block;
+    padding: 8px;
+    background-color: #eee;
+    text-decoration: none;
+    color: #666;
+}
+.sidemenu li a:hover {
+    background-color: #555;
+    color: white;
+}
+.sidemenu li a.active {
+    background-color: #008CBA;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<ul class="topmenu">
+  <li><a href="#home" class="active">主页</a></li>
+  <li><a href="#news">新闻</a></li>
+  <li><a href="#contact">联系我们</a></li>
+  <li><a href="#about">关于我们</a></li>
+</ul>
+
+<div class="clearfix">
+  <div class="column sidemenu">
+    <ul>
+      <li><a href="hi.html">服务项目</a></li>
+      <li><a href="#city" class="active">维修点</a></li>
+      <li><a href="#island">前沿</a></li>
+      <li><a href="#food">历史</a></li>
+      <li><a href="#people">合作</a></li>
+      <li><a href="#history">售后</a></li>
+      <li><a href="#oceans">团队</a></li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <div class="header">
+      <h1>杨师傅家电维修服务中心</h1>
+    </div>
+    <h1>业务简介</h1>
+    <p>家电维修网提供空调维修,中央空调维修,壁挂炉维修,空气能维修,热水器维修,太阳能维修,集成灶维修,洗衣机维修,冰箱维修</p>
+    <p>您在这里将获得优质放心的服务</p>
+  </div>
+</div>
+
+<div  class="footer">
+
+<p color: write;>联系:杨师傅</p>
+
+<p color: write;>联系电话: 18355436458</p>
+</div>
+
+</body>
+</html>
